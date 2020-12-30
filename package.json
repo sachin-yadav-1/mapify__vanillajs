@@ -1,0 +1,19 @@
+{
+	"name": "mapify",
+	"version": "1.0.0",
+	"description": "A simple app where users can log their workout details based on the location by simply clicking on the map.",
+	"main": "script.js",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html --out-dir ./dist"
+	},
+	"keywords": [],
+	"author": "sachin-yadav",
+	"license": "ISC",
+	"dependencies": {
+		"core-js": "^3.8.1",
+		"lodash-es": "^4.17.20",
+		"parcel": "^1.12.4",
+		"regenerator-runtime": "^0.13.7"
+	}
+}
